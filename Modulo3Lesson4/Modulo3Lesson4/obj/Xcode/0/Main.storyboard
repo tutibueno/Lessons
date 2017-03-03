@@ -17,7 +17,7 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="64l-xq-pnX">
@@ -45,10 +45,19 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="Map" destination="rlY-QI-Pe8" id="name-outlet-rlY-QI-Pe8"/>
+                        <outlet property="Visor" destination="64l-xq-pnX" id="name-outlet-64l-xq-pnX"/>
+                        <outlet property="Seletor" destination="gcH-Bi-Zln" id="name-outlet-gcH-Bi-Zln"/>
+                        <outlet property="VisorWeb" destination="THc-Am-Fk8" id="name-outlet-THc-Am-Fk8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-442.1875" y="95.5078125"/>
+            <point key="canvasLocation" x="-442.1875" y="95.50781"/>
         </scene>
     </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedScreenMetrics key="destination" type="iPad"/>
+    </simulatedMetricsContainer>
 </document>

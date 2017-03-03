@@ -9,4 +9,9 @@
 
 @implementation ViewController
 
+@synthesize Map = _Map;
+@synthesize Seletor = _Seletor;
+@synthesize Visor = _Visor;
+@synthesize VisorWeb = _VisorWeb;
+
 @end
