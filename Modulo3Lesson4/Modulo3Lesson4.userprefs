@@ -1,10 +1,9 @@
 ﻿<Properties StartupConfiguration="{C00BB58E-AAF9-4F90-8144-D89542E140C8}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Modulo3Lesson4/Dados.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Modulo3Lesson4/ViewController.cs">
     <Files>
       <File FileName="Modulo3Lesson4/AppDelegate.cs" Line="1" Column="1" />
-      <File FileName="Modulo3Lesson4/ViewController.designer.cs" Line="1" Column="1" />
-      <File FileName="Modulo3Lesson4/ViewController.cs" Line="19" Column="14" />
-      <File FileName="Modulo3Lesson4/Dados.cs" Line="6" Column="3" />
+      <File FileName="Modulo3Lesson4/ViewController.cs" Line="41" Column="42" />
+      <File FileName="Modulo3Lesson4/Dados.cs" Line="7" Column="54" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
@@ -12,6 +11,6 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Modulo3Lesson4 PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.7AB3D63E-D46D-4736-BF12-585B35181C01" />
+  <MonoDevelop.Ide.ItemProperties.Modulo3Lesson4 PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.A22D2385-F28D-485D-A48A-B2FA3871F6FD" />
   <MultiItemStartupConfigurations />
 </Properties>

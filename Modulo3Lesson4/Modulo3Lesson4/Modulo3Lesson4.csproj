@@ -114,5 +114,8 @@
     </Compile>
     <Compile Include="Dados.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Rafita.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

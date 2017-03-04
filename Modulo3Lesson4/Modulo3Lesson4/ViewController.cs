@@ -38,7 +38,8 @@ namespace Modulo3Lesson4
 			base.ViewDidLoad();
 			// Perform any additional setup after loading the view, typically from a nib.
 
-			Visor.Image = UIImage.FromFile("fp.jpg");
+			Visor.Image = UIImage.FromFile("Rafita.jpg");
+			Visor.ContentMode = UIViewContentMode.ScaleAspectFit;
 			string htmlString = "<html>\n<header><title>This is title</title></header>\n<body>\nHello world\n</body>\n</html>";
 
 			VisorWeb.LoadHtmlString(htmlString, new NSUrl("./", true));
@@ -69,6 +70,14 @@ namespace Modulo3Lesson4
 					Longitude = x.Longitude
 				}
 			}));
+
+
+
+			var Leon = new CLLocationCoordinate2D(21.152676, -101.711698);
+			var Cancun = new CLLocationCoordinate2D(21.052743, -86.847242);
+			var Tijuana = new CLLocationCoordinate2D(32.526384, -117.028983);
+
+
 
 		}
 
